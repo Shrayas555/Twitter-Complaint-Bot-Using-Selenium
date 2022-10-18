@@ -28,10 +28,6 @@ class InternetSpeedTwitterBot:
         self.upload = self.uploadnum.text
 
 
-
-
-
-
     def tweet_at_provider(self):
         self.driver.get('https://twitter.com/i/flow/login')
         time.sleep(5)
